@@ -44,10 +44,12 @@ function updateDisplay() {
 
 updateDisplay();
 
+
+// Azione sul pulsante Add to Cart
 const cart = document.querySelector(".button-cart");
 
 cart.addEventListener("click", () => {
-    if(counter != 1) {
+    if (counter != 1) {
         alert ("Oggetti aggiunti al carrello.");
     }else {
         alert ("Oggetto aggiunto al carrello.");
