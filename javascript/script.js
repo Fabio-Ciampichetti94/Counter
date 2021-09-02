@@ -44,11 +44,4 @@ function updateDisplay() {
 
 updateDisplay();
 
-// creo il messaggio di aggiunta al carrello se si clicca il pulsante Add to Cart
-const buttons = document.querySelector(".button-cart");
-
-buttons.addEventListener("click", function() {
-        alert("L'oggetto è stato aggiunto al carrello!");
-});
-
 
