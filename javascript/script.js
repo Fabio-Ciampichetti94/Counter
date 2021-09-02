@@ -32,7 +32,7 @@ btnPlus.addEventListener("click",()=> {
 });
 
 btnLess.addEventListener("click",()=> {
-    if(counter != 0) {
+    if(counter != 0) {  //creo questa condizione affinchè il counter non vada sotto lo zero
         counter--;
     }
     updateDisplay();
@@ -43,5 +43,12 @@ function updateDisplay() {
 };
 
 updateDisplay();
+
+// creo il messaggio di aggiunta al carrello se si clicca il pulsante Add to Cart
+const buttons = document.querySelector(".button-cart");
+
+buttons.addEventListener("click", function() {
+    alert("L'oggetto è stato aggiunto al carrello!");
+})
 
 
