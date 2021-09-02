@@ -48,7 +48,7 @@ updateDisplay();
 const buttons = document.querySelector(".button-cart");
 
 buttons.addEventListener("click", function() {
-    alert("L'oggetto è stato aggiunto al carrello!");
-})
+        alert("L'oggetto è stato aggiunto al carrello!");
+});
 
 
