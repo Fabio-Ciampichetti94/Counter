@@ -49,11 +49,16 @@ updateDisplay();
 const cart = document.querySelector(".button-cart");
 
 cart.addEventListener("click", () => {
-    if (counter != 1) {
-        alert ("Oggetti aggiunti al carrello.");
-    }else {
+    if (counter == 0) {
+        alert("Nessun oggetto è nel carrello");
+    }
+    if (counter == 1) {
         alert ("Oggetto aggiunto al carrello.");
     }
+    if(counter > 1) {
+        alert ("Oggetti aggiunti al carrello.");
+    }
 });
+
 
 
