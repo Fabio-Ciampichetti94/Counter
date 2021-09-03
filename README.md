@@ -22,4 +22,4 @@ La pagina ha il solo scopo di incrementare o decrementare il counter con i pulsa
 
 ### License & Copyright :closed_lock_with_key:
 
-© Fabio Ciampichetti, Start2Impact Web Developer Student"
+© Fabio Ciampichetti, Start2Impact Web Developer Student
