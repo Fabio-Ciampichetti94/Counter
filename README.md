@@ -1,6 +1,6 @@
 # CounterJS 
 
-First Project with JS man_student
+First Project with JS :man_student:
 
 Version 1.0.0
 
