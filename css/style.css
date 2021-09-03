@@ -133,6 +133,10 @@
     background-color: rgb(22, 22, 22);
 }
 
+.media:focus, .media-choose:focus {
+    outline: none;
+}
+
 .media-choose {
     display: flex;
     justify-content: space-between;
@@ -269,6 +273,7 @@
 #hand-iphone {
     display: flex;
     justify-content: flex-start;
+    opacity: 0.8;
     margin: 0;
 }
 
