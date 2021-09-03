@@ -8,9 +8,9 @@ Version 1.0.0
 
 ## Creato con :man_technologist:
 
- HTML
- CSS
- JavaScript
+- HTML
+- CSS
+- JavaScript
 
 ## Descrizione :clipboard:
 
