@@ -4,6 +4,8 @@ First Project with JS man_student
 
 Version 1.0.0
 
+![alt text](./img/screenApp.png)
+
 ## Creato con :man_technologist:
 
  HTML
