@@ -34,6 +34,7 @@ btnPlus.addEventListener("click",()=> {
 btnLess.addEventListener("click",()=> {
     if(counter != 0) {  //creo questa condizione affinchè il counter non vada sotto lo zero
         counter--;
+        alert("Oggetto rimosso correttamente dal carrello");
     }
     updateDisplay();
 });
