@@ -32,12 +32,16 @@ btnPlus.addEventListener("click",()=> {
 });
 
 btnLess.addEventListener("click",()=> {
-    if(counter != 0) {  //creo questa condizione affinchè il counter non vada sotto lo zero
+    if (counter != 0) {  //creo questa condizione affinchè il counter non vada sotto lo zero
         counter--;
+        alert("Oggetto rimosso correttamente dal carrello");
+    }
+    if (counter == 0) {
+        alert("Non puoi togliere ciò che non esiste");
     }
     updateDisplay();
     
-    alert("Oggetto rimosso correttamente dal carrello");
+    
 });
 
 function updateDisplay() {
