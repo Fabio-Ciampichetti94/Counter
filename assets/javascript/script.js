@@ -36,9 +36,6 @@ btnLess.addEventListener("click",()=> {
         counter--;
         alert("Oggetto rimosso correttamente dal carrello");
     }
-    if (counter == 0) {
-        alert("Non puoi togliere ciò che non esiste");
-    }
     updateDisplay();
     
     
