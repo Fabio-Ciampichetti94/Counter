@@ -10,6 +10,7 @@ Version 1.0.0
 
 - HTML
 - CSS
+- Bootstrap
 - JavaScript
 
 ## Descrizione :clipboard:
