@@ -219,6 +219,7 @@
     border-radius: 60px;
     font-weight: 500;
     margin-right: 10px;
+    cursor: pointer;
 }
 
 .styles:focus {
@@ -228,6 +229,7 @@
 .cart {
     display: flex;
     justify-content: center;
+    cursor: pointer;
     margin-top: 30px;
     margin-bottom: 50px;
 }
